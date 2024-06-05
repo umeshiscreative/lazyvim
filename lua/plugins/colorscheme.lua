@@ -1,8 +1,24 @@
+if false then
+  return {
+    "tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  }
+end
+
 return {
   "catppuccin/nvim",
   lazy = true,
+  priority = 1000,
   name = "catppuccin",
   opts = {
+    term_colors = true,
+    transparent_background = true,
     integrations = {
       aerial = true,
       alpha = true,
@@ -31,6 +47,7 @@ return {
       neotest = true,
       neotree = true,
       noice = true,
+      nvimtree = true,
       notify = true,
       semantic_tokens = true,
       telescope = true,
