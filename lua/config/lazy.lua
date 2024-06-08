@@ -30,6 +30,9 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.lang.rust" }, --Install this rust-analyzer also for rustIDE support =>
     --rustup component add rust-analyzer
+    { import = "lazyvim.plugins.extras.lang.tailwind" },
+    { import = "lazyvim.plugins.extras.lang.markdown" },
+    { import = "lazyvim.plugins.extras.lang.json" },
     { import = "plugins" },
   },
   defaults = {
